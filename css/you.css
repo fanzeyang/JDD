@@ -1,0 +1,234 @@
+		.hi {
+			width: 190px;
+			height: 535px;
+			background-color: white;
+			position: absolute;
+			right: 0;
+			top: 0;
+			padding-left: 15px;
+			padding-right: 15px;
+			overflow: hidden;
+			z-index: 4;
+		}
+		.hi>input {
+			width: 75px;
+			height: 75px;
+			position: absolute;
+			top: -14px;
+			right: 70px;
+		}
+		.denglu {
+			text-decoration: none;
+			color: rgb(102,102,102);
+		}
+		.denglu:hover {
+			color: red;
+		}
+		.hitext {
+			margin-top: 60px;
+			margin-left: 30px;
+			color: rgb(136,136,136);
+		}
+		.new {
+			text-decoration: none;
+			color: red;
+			text-align: center;
+			line-height: 30px;
+			font-size: 14px;
+			float: left;
+			margin-left: 15px;
+		}
+		.new>div {
+			width: 75px;
+			height: 30px;
+			background-color: rgb(230,230,230);
+			border-radius: 15px;
+		}
+		.plus {
+			text-decoration: none;
+			color: rgb(229,215,144);
+			text-align: center;
+			line-height: 30px;
+			font-size: 14px;
+			float: left;
+			margin-left: 15px;
+		}
+		.plus>div {
+			width: 75px;
+			height: 30px;
+			background-color: rgb(54,54,52);
+			border-radius: 15px;
+		}
+		.fuli {
+			margin-top: 15px;
+		}
+		.new div:hover {
+			background-color: red;
+			color: white;
+		}
+		.plus div:hover {
+			background-color: red;
+			color: white;
+		}
+		.sale>a {
+			text-decoration: none;
+			color: rgb(51,51,51);
+			font-size: 14px;
+		}
+		.sale>a:hover {
+			border: none;
+			border-bottom: red 2px solid;
+		}
+		.silver {
+			margin-top: 10px;
+			width: 100%;
+		}
+		.silver a {
+			text-decoration: none;
+			color: rgb(102,102,102);
+			font-size: 14px;
+		}
+		.sale span{
+			color: rgb(51,51,51);
+			font-size: 14px;
+		}
+		.sale span:hover {
+			border: none;
+			border-bottom: red 2px solid;
+		}
+		.silver a:hover {
+			color: red;
+		}
+		.ii {
+			list-style-type: none;
+			display: none;
+		}
+		.iii{
+			list-style-type: none;
+			display: none;
+		}
+		.game {
+			margin-left: 5px;
+			margin-top: 10px;
+		}
+		.a {
+			padding-right: 15px;
+		}
+		.game>ul>li {
+			list-style-type: none;
+			float: left;
+		}
+		.gm {
+			display: none;
+			width: 200px;
+			height: 206px;
+			position: absolute;
+			top: 325px;
+			right: 0;
+			z-index: 10;
+		}
+		.game ul li a {
+			display: block;
+			margin-right: 10px;
+			text-decoration: none;
+			color: rgb(102,102,102);
+		}
+		.fun {
+			color: red;
+			display: inline-block;
+			height: 30px;
+			border: none;
+			border-bottom: red 2px solid;
+		}
+		.b {
+			margin-right: 15px;
+		}
+		.vedio>ul{
+			width: 100%;
+			height: 21px;
+		}
+		.vedio>ul>li {
+			float: left;
+			list-style-type: none;
+		}
+		.vedio a {
+			text-decoration: none;
+			color: rgb(102,102,102);
+		}
+		
+		#qq {
+			color: red;
+		}
+		.vedio a:hover {
+			color: red;
+		}
+		.vedio {
+			width: 100%;
+			float: left;
+		}
+		.qb {
+			float: left;
+			margin-top: 10px;
+		}
+		.qb div{
+			float: left;
+		}
+		.q1 {
+			width: 50px;
+			height: 25px;
+			line-height: 25px;
+			font-size: 14px;
+			color: rgb(102,102,102);
+		}
+		.q2 input {
+			width: 125px;
+			height: 15px;
+			text-align: center;
+		}
+		.mz{
+			width: 100%;
+			height: 40px;
+			float: left;
+		}
+		.m1 {
+			margin-top: 5px;
+			float: left;
+			width: 100%;
+			height: 40px;
+			line-height: 25px;
+			font-size: 14px;
+			color: rgb(102,102,102);
+		}
+		.m2{
+			float: left;
+		}
+		.m1 select {
+			margin-left: 18px;
+			width: 130px;
+			height: 25px
+		}
+		.mz p {
+			color: red;
+			margin-left: 50px;
+		}
+		.m2 .z {
+			margin-top: 10px;
+			font-size: 14px;
+			color: rgb(102,102,102);
+		}
+		.m2 a {
+			text-decoration: none;
+			color: white;
+			text-align: center;
+			line-height: 25px;
+			font-size: 14px;
+			float: left;
+			margin-top: 10px;
+		}
+		.m2 a>div {
+			width: 65px;
+			height: 25px;
+			background-color: red;
+			border-radius: 15px;
+			color: #fff;
+		}

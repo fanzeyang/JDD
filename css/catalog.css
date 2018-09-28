@@ -1,0 +1,68 @@
+		.logo {
+			width: 190px;
+			height: 170px;
+			position: absolute;
+			top: -55px;
+			left: 0;
+			background-color: black;
+		}
+		.catalog {
+			width: 190px;
+			height: 535px;
+			position: relative;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: white;
+			z-index: 3;
+
+		}
+		.cata div {
+			display: none;
+			background: white;
+			box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+			height: 535px;
+			position: absolute;
+			top: 0;
+			left: 190px;
+			z-index: 999;
+		}
+		.cata {
+			width: 170px;
+			height: 30px;
+			color: rgb(98,98,98);
+			padding-left: 20px;
+			padding-top: 1px;
+		}
+		.cata>a {
+			font-size: 14px;
+			color: rgb(98,98,98);
+			text-decoration: none;
+			line-height: 30px;
+		}
+		.cata:hover {
+			background-color: rgb(200,200,200);
+		}
+		.cata>a:hover {
+			color: red;
+			background-color: rgb(200,200,200);
+		}
+		.catalist ul{
+			width: 500px;
+			height: 10%;
+			list-style: none;
+			display: flex;
+			flex-direction: row;
+			padding-left: 20px;
+		}
+		.catalist ul li {
+			width: 20%;
+			height: 100%;
+			color: grey;
+			font-size: 12px;
+			line-height: 50px;
+			cursor: pointer;
+		}
+		.catalist ul li span:hover {
+			color: #ff6700;
+		}

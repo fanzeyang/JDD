@@ -1,0 +1,388 @@
+		.zhongjianneirong {
+			width: 1200px;
+			height: 100%;
+			position: relative;
+			margin: 0 auto ;
+		}
+		.p {
+			width: 775px;
+			height: 535px;
+			margin: 0 auto;
+			position: relative;
+		}
+		.p img {
+			width: 775px;
+			height: 535px;
+			position: absolute;
+			top: 0;
+			left: -15px;
+			z-index: 1;
+		}
+		.arrow{
+			width: 775px;
+			height: 69px;
+			position: absolute;
+			left: -15px;
+			top: 250px;
+			display: flex;
+			justify-content: space-between;
+		}
+		.arrow span{
+			display: block;
+			width: 41px;
+			height: 69px;
+			line-height: 69px;
+			text-align: center;
+			z-index: 3;
+			color: #757575;
+			font-size: 40px;
+			cursor: pointer;
+		}
+		.arrow span:hover{
+			background-color: rgb(96,96,96);
+			color: white;
+		}
+		.home-hero-list-control{
+			z-index: 999;
+			width: 100px;
+			height: 20px;
+			position: absolute;
+			top: 500px;
+			right: 30px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		.home-hero-list-control .hot{
+			background: #fff;
+		}
+		.home-hero-list-control div{
+			width: 10px;
+			height: 10px;
+			border-radius: 5px;
+			background-color: #333;
+			transition: all 0.5s;
+		}
+
+		.home-hero-list-control div a{
+			display: block;
+			width: 10px;
+			height: 10px;
+		}
+		.home-hero-list-control div:hover{
+			border: 1px solid #333;
+		}
+
+		.xiamianneirong{
+			width: 1200px;
+			height: 3725px;
+			float: left;
+		}
+		.pp1 {
+			float: left;
+			margin-top: 10px;
+		}
+		.ppma{
+			float: left;
+			width: 769px;
+			height: 304px;
+			margin-top: 10px;
+			background-color: white;
+			position: relative;
+            overflow: hidden;
+		}
+		.ppma ul{
+			width: 100%;
+			height: 100%;
+			list-style: none;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+            transition: all 0.2s;
+		}
+		.ppma ul li{
+			width: 25%;
+			height: 100%;
+		}
+		.ppma ul li:hover{
+			opacity: 0.5;
+		}
+		.ppma ul li a:first-child{
+			display: block;
+			margin-top: 35px;
+			margin-left: 22px;
+		}
+		.ppma ul li a:nth-child(2){
+			display: block;
+			margin-top: 10px;
+			margin-left: 5px;
+		}
+		.ppma ul li a:nth-child(3){
+			display: block;
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+		.ppma ul li a {
+			text-decoration: none;
+			font-size: 14px;
+			color: rgb(102,102,102);
+		}
+		.ppma ul li a:hover {
+			color: red;
+		}
+		.ppmac{
+			width: 100%;
+			height: 40px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			position: absolute;
+			top: 140px;
+		}
+        .ppmac div{
+            text-align: center;
+            line-height: 40px;
+            width: 20px;
+            height: 40px;
+            background-color: rgba(0,0,0,0.3);
+            z-index: 999;
+            cursor: pointer;
+        }
+        .ppmac div:hover{
+            background-color: rgba(0,0,0,0.5);
+        }
+
+		.pp3 {
+			float: left;
+			width: 208px;
+			height: 304px;
+			margin-top: 10px;
+			margin-left: 15px;
+			background-color: white;
+			position: relative;
+			overflow: hidden;
+		}
+		.pp3 img {
+			width: 190px;
+			height: 290px;
+			margin: 7px 10px 7px 10px;
+			position: absolute;
+			left: 208px;
+			top: 0;
+		}
+		.pp3c {
+			width: 208px;
+			height: 10px;
+			position: absolute;
+			bottom: 10px;
+			display: flex;
+			justify-content: center;
+		}
+		.pp3c div{
+			width: 10px;
+			height: 10px;
+			border: 1px solid #333;
+			border-radius: 10px;
+			margin-right: 5px;
+			z-index: 5;
+		}
+		.hot1 {
+			background: #333;
+		}
+
+
+
+
+
+
+
+		.box1 {
+			margin-top: 10px;
+			width: 100%;
+			height: 480px;
+			float: left;
+		}
+		.pp4 {
+			float: left;
+			width: 390px;
+			height: 450px;
+			background-color: white;
+		}
+		.pp5 {
+			float: left;
+			margin: 0px 10px 30px 10px;
+			width: 390px;
+			height: 450px;
+			background-color: white;
+			position: relative;
+			overflow: hidden;
+		}
+		.pp5list{
+			width: 350px;
+			margin: 0 auto;
+			margin-left: 20px;
+			text-align: center;
+			position: absolute;
+			top: 57px;
+			left: 390px;
+			/*transition: all 0.2s;*/
+			background-color: white;
+		}
+		.pp5list p{
+			display: block;
+			font-weight: bold;
+			font-size: 18px;
+			line-height: 58px;
+			color: #222;
+		}
+		.pp5listc {
+			width: 100%;
+			height: 5px;
+			position: absolute;
+			bottom: 5px;
+			display: flex;
+			justify-content: center;
+			z-index: 99;
+		}
+		.pp5listc div {
+			width: 5px;
+			height: 5px;
+			border-radius: 2.5px;
+			background: #222222;
+			margin-left: 5px;
+		}
+		.pp5listc .hotrt{
+			background: #fff;
+			border: 1px solid #222222;
+		}
+		.pp5list p:last-of-type{
+			display: block;
+			font-weight: normal;
+			height: 36px;
+			line-height: 18px;
+			font-size: 14px;
+			color: #666;
+		}
+		.btnbtn{
+			width: 100%;
+			height: 40px;
+			display: flex;
+			justify-content: space-between;
+			position: absolute;
+			top: 200px;
+			left: 0;
+		}
+		.btnbtn div{
+			width: 20px;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			color: white;
+			background-color: rgba(0,0,0,0.15);
+		}
+		.btnbtn div:hover{
+			background-color: rgba(0,0,0,0.3);
+		}
+		.pp6 {
+			float: left;
+			margin: 0 0 30px 0;
+			width: 390px;
+			height: 450px;
+			background-color: white;
+			position: relative;
+		}
+		.pp6c {
+			width: 100%;
+			height: 10px;
+			display: flex;
+			justify-content: center;
+			position: absolute;
+			bottom: 5px;
+		}
+		.pp6c div {
+			width: 10px;
+			height: 10px;
+			border-radius: 5px;
+			background-color: #666666;
+			margin-right: 5px;
+		}
+		.pp6c .vhot{
+			background-color: #ff6700;
+		}
+		.pp6 a img {
+			position: absolute;
+			top: 65px;
+			left: 20px;
+			z-index: 1;
+		}
+		.pp6 a:last-of-type img{
+			position: absolute;
+			left: 28px;
+		}
+		.xiaodaohang {
+			width: 100%;
+			height: 34px;
+			background-color: rgb(247,247,247);
+			display: flex;
+			justify-content: space-between;
+			position: relative;
+		}
+		#dajiadian {
+			color: red;
+		}
+		.xiaodaohang div span {
+			text-decoration: none;
+			color: rgb(102,102,102);
+			line-height: 34px;
+			margin-left: 10px;
+		}
+		.paihanglist {
+			display: none;
+			position: absolute;
+			top: 34px;
+			left: 0;
+			width: 390px;
+		}
+		.xiaodaohang div .hottt{
+			color: #ff6700;
+			cursor: pointer;
+		}
+		.bingxiang {
+			float: left;
+		}
+		.bingxiangtext {
+			margin-top: 35px;
+		}
+		.bingxiangtext2 {
+			margin-top: 65px;
+		}
+		.bingxiangtext3 {
+			margin-top: 65px;
+		}
+		.bingxiangtext a {
+			text-decoration: none;
+			font-size: 12px;
+			color: rgb(102,102,102);
+		}
+		.bingxiangtext2 a {
+			text-decoration: none;
+			font-size: 12px;
+			color: rgb(102,102,102);
+		}
+		.bingxiangtext3 a {
+			text-decoration: none;
+			font-size: 12px;
+			color: rgb(102,102,102);
+		}
+		.bingxiangtext>a:hover {
+			color: red;
+		}
+		.bingxiangtext2>a:hover {
+			color: red;
+		}
+		.bingxiangtext3>a:hover {
+			color: red;
+		}
+		.youhui {
+			margin-left: 12px;
+		}
